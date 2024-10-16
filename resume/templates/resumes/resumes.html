@@ -1,0 +1,8 @@
+{% extends 'shared/layout.html' %}
+{% block content %}
+	<ul>
+  {% for item in resumes %}
+      <li>{{ item }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}
